@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msound"
+version = "1.0.0"
+description = "Simple mathematical sound generator"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy",
+]
+
+keywords = ["sound", "audio", "math", "generator"]
